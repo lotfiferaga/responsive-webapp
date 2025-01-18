@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop Cleaning Services</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: white;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #0056b3;
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 1rem;
+            background-image: url('https://via.placeholder.com/1920x600?text=Pristine+Desktop+Cleaning');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            margin: 0 0 1rem;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .hero button {
+            padding: 0.8rem 2rem;
+            font-size: 1.2rem;
+            background-color: #ffcc00;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .hero button:hover {
+            background-color: #e6b800;
+            transform: scale(1.05);
+        }
+        .services {
+            padding: 3rem 1rem;
+            text-align: center;
+            background-color: #f4f4f9;
+        }
+        .services h2 {
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            color: #0056b3;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .services li {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .services li:hover {
+            transform: translateY(-10px);
+        }
+        .services img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        #about {
+            background-color: #ffffff;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        #about h2 {
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            color: #343a40;
+        }
+        #about p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        #contact {
+            padding: 3rem 1rem;
+            background-color: #e9ecef;
+            text-align: center;
+        }
+        #contact h2 {
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            color: #343a40;
+        }
+        #contact p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pristine Desktop Cleaning</h1>
+        <p>Professional Cleaning for a Safer, More Productive Workspace</p>
+    </header>
+    <nav>
+        <a href="#services">Our Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Pristine Desktop Cleaning</h1>
+        <p>Your go-to solution for maintaining clean, hygienic desktops and workspaces.</p>
+        <button onclick="window.location.href='#contact'">Book Now</button>
+    </div>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>
+                <img src="https://via.placeholder.com/250" alt="Comprehensive Desktop Cleaning">
+                <p>Comprehensive Desktop Cleaning</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/250" alt="Keyboard and Mouse Sanitation">
+                <p>Keyboard and Mouse Sanitation</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/250" alt="Monitor Screen Polishing">
+                <p>Monitor Screen Polishing</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/250" alt="Regular Maintenance Plans">
+                <p>Regular Maintenance Plans</p>
+            </li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated team passionate about helping individuals and businesses maintain clean, efficient workspaces. Our specialized cleaning techniques ensure your desktop equipment stays in top-notch condition.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@pristinedesktopcleaning.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Clean Street, Workspace City, WC 56789</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Pristine Desktop Cleaning. All rights reserved.</p>
+    </footer>
+</body>
+</html>
